@@ -186,7 +186,7 @@ const APIDashboard = () => {
                                 </div>
                             )) : (
                                 <div className="text-gray-500 text-sm text-center">
-                                    Select user to view the post
+                                    Select user to view the post or create a post
                                 </div>
                             )}
                         </div>
@@ -241,9 +241,9 @@ const APIDashboard = () => {
                     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
                         <motion.div
                             initial={{ opacity: 0, scale: 0.8 }}  
-                            animate={{ opacity: 1, scale: 1 }}    
-                            exit={{ opacity: 0, scale: 0.8 }}    
-                            transition={{ duration: 0.3, ease: "easeInOut" }} 
+                            animate={{ opacity: 1, scale: 1 }}   
+                            exit={{ opacity: 0, scale: 0.8 }}     
+                            transition={{ duration: 0.3, ease: "easeInOut" }}  
                             className="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-1/3"
                         >
                             <h2 className="text-lg font-semibold mb-4">Create a Post</h2>
